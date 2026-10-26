@@ -6,6 +6,7 @@
   "engines": { "node": ">=20" },
   "scripts": {
     "start": "node backend/server.cjs",
+    "start:env": "node --env-file=.env backend/server.cjs",
     "dev": "node --watch backend/server.cjs",
     "test": "node --test backend/server.test.cjs"
   }

@@ -2,4 +2,9 @@ node_modules/
 backend/data/favorites.json
 backend/data/favorites.json.tmp
 .env
+.env.*
+!.env.example
+credentials/
+*.pem
+*.key
 *.log

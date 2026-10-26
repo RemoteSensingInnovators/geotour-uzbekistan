@@ -17,7 +17,24 @@ Windows’da `start.bat` orqali ham ishga tushadi. VS Code’da F5 backend debug
 
 Boshqa port (PowerShell): `$env:PORT=4000; npm start`.
 
-## Papkalar
+## Environment va API kalitlari
+
+Hozirgi versiya **API kalitsiz ishlaydi**. Haqiqiy GEE, Google Maps API yoki boshqa maxfiy kalitlar bu loyiha bilan taqdim etilmagan va repozitoriyga yuklanmagan. Google Maps havolalari oddiy brauzer havolalaridir; ular API kalit talab qilmaydi.
+
+Portni `.env` orqali sozlash (Node.js 20.6+):
+
+```powershell
+Copy-Item .env.example .env
+npm run start:env
+```
+
+`.env` faylidagi `PORT` qiymatini o‘zgartirish mumkin. Oddiy `npm start` avvalgidek ishlaydi, lekin `.env`ni avtomatik o‘qimaydi. Hostingda `PORT` server environment sozlamasida beriladi.
+
+Maxfiy kalitlar kerak bo‘ladigan xizmat keyinchalik ulanganda ularni serverning environment sozlamasi yoki GitHub Actions ishlatilsa repository Secrets bo‘limida saqlang. `.env.example` faqat xavfsiz namuna; kalitlarni frontendga yoki ushbu faylga yozmang. `.env`, `.env.*`, `credentials/`, `.pem` va `.key` fayllari Git tomonidan e’tiborsiz qoldiriladi. Bu qoidalar avval commit qilingan sirlarni tarixdan olib tashlamaydi.
+
+GEE jonli hisoblash hali amalga oshirilmagan: kalit qo‘shishning o‘zi uni yoqmaydi; hisoblash formulalari va GEE backend integratsiyasi ham kerak.
+
+## Loyiha tuzilmasi
 
 ```text
 frontend/
