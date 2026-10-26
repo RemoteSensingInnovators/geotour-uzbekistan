@@ -1,0 +1,176 @@
+{
+  "indices": {
+    "ESI": {
+      "name": "Ecotourism Suitability Index",
+      "uz": "Ekoturizmga moslik indeksi",
+      "color": "#16a34a",
+      "description": "Tabiiy hududlar, suv, o‘rmon va relyef jozibadorligi."
+    },
+    "TSI": {
+      "name": "Tourism Suitability Index",
+      "uz": "Turizmga moslik indeksi",
+      "color": "#2563eb",
+      "description": "Yo‘l, xizmatlar, diqqatga sazovor joylar va qulaylik."
+    },
+    "TPI": {
+      "name": "Tourism Potential Index",
+      "uz": "Turistik salohiyat indeksi",
+      "color": "#f59e0b",
+      "description": "Tabiiy va madaniy resurslarning umumiy salohiyati."
+    },
+    "TRSI": {
+      "name": "Tourism/Recreation Suitability Index",
+      "uz": "Turizm-rekreatsiya mosligi",
+      "color": "#7c3aed",
+      "description": "Dam olish, iqlim va ochiq maydonlar uyg‘unligi."
+    },
+    "ETSI": {
+      "name": "Ecotourism Tourism Suitability Index",
+      "uz": "Ekoturizm-turizm mosligi",
+      "color": "#0d9488",
+      "description": "Ekologik qiymat va turistik infratuzilmaning balansi."
+    }
+  },
+  "regions": [
+    {
+      "name": "Toshkent shahri",
+      "lat": 41.31,
+      "lng": 69.28,
+      "ESI": 42,
+      "TSI": 92,
+      "TPI": 86,
+      "TRSI": 70,
+      "ETSI": 61
+    },
+    {
+      "name": "Toshkent viloyati",
+      "lat": 41.12,
+      "lng": 69.75,
+      "ESI": 84,
+      "TSI": 85,
+      "TPI": 91,
+      "TRSI": 90,
+      "ETSI": 88
+    },
+    {
+      "name": "Samarqand",
+      "lat": 39.65,
+      "lng": 66.96,
+      "ESI": 55,
+      "TSI": 91,
+      "TPI": 94,
+      "TRSI": 75,
+      "ETSI": 72
+    },
+    {
+      "name": "Buxoro",
+      "lat": 39.77,
+      "lng": 64.43,
+      "ESI": 43,
+      "TSI": 88,
+      "TPI": 91,
+      "TRSI": 68,
+      "ETSI": 65
+    },
+    {
+      "name": "Xorazm",
+      "lat": 41.55,
+      "lng": 60.63,
+      "ESI": 52,
+      "TSI": 82,
+      "TPI": 87,
+      "TRSI": 69,
+      "ETSI": 68
+    },
+    {
+      "name": "Qoraqalpog‘iston",
+      "lat": 43,
+      "lng": 59,
+      "ESI": 78,
+      "TSI": 60,
+      "TPI": 76,
+      "TRSI": 72,
+      "ETSI": 73
+    },
+    {
+      "name": "Navoiy",
+      "lat": 40.1,
+      "lng": 65.37,
+      "ESI": 68,
+      "TSI": 66,
+      "TPI": 78,
+      "TRSI": 71,
+      "ETSI": 72
+    },
+    {
+      "name": "Jizzax",
+      "lat": 40.12,
+      "lng": 67.84,
+      "ESI": 79,
+      "TSI": 67,
+      "TPI": 79,
+      "TRSI": 82,
+      "ETSI": 80
+    },
+    {
+      "name": "Sirdaryo",
+      "lat": 40.49,
+      "lng": 68.78,
+      "ESI": 48,
+      "TSI": 70,
+      "TPI": 64,
+      "TRSI": 61,
+      "ETSI": 56
+    },
+    {
+      "name": "Farg‘ona",
+      "lat": 40.39,
+      "lng": 71.79,
+      "ESI": 65,
+      "TSI": 81,
+      "TPI": 84,
+      "TRSI": 77,
+      "ETSI": 75
+    },
+    {
+      "name": "Namangan",
+      "lat": 41,
+      "lng": 71.67,
+      "ESI": 73,
+      "TSI": 76,
+      "TPI": 82,
+      "TRSI": 81,
+      "ETSI": 79
+    },
+    {
+      "name": "Andijon",
+      "lat": 40.78,
+      "lng": 72.34,
+      "ESI": 58,
+      "TSI": 78,
+      "TPI": 76,
+      "TRSI": 70,
+      "ETSI": 67
+    },
+    {
+      "name": "Qashqadaryo",
+      "lat": 38.86,
+      "lng": 65.8,
+      "ESI": 76,
+      "TSI": 70,
+      "TPI": 83,
+      "TRSI": 79,
+      "ETSI": 79
+    },
+    {
+      "name": "Surxondaryo",
+      "lat": 37.94,
+      "lng": 67.57,
+      "ESI": 88,
+      "TSI": 72,
+      "TPI": 89,
+      "TRSI": 87,
+      "ETSI": 87
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "geotour-uzbekistan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Uzbekistan tourism map: editable frontend and Node.js backend",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node backend/server.cjs",
+    "dev": "node --watch backend/server.cjs",
+    "test": "node --test backend/server.test.cjs"
+  }
+}

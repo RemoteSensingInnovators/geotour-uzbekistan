@@ -1,0 +1,5 @@
+node_modules/
+backend/data/favorites.json
+backend/data/favorites.json.tmp
+.env
+*.log
